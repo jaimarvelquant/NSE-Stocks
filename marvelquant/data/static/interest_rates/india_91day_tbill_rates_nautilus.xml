@@ -1,0 +1,709 @@
+<?xml version='1.0' encoding='utf-8'?>
+<message:GenericData xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic">
+    <message:Header>
+        <message:ID>IND_RBI_TBILL_91D</message:ID>
+        <message:Test>false</message:Test>
+        <message:Prepared>2025-11-04T11:59:25.025484</message:Prepared>
+        <message:Sender id="Reserve_Bank_of_India" />
+        <message:Structure structureID="RBI_TBILL_91D" dimensionAtObservation="TIME_PERIOD">
+            <common:StructureUsage>
+                <Ref agencyID="RBI" id="TBILL_91D" version="1.0" />
+            </common:StructureUsage>
+        </message:Structure>
+        <message:DataSetAction>Information</message:DataSetAction>
+        <message:DataSetID>IND_TBILL_91D</message:DataSetID>
+    </message:Header>
+    <message:DataSet action="Information" structureRef="RBI_TBILL_91D">
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="REF_AREA" value="IND" />
+                <generic:Value id="FREQ" value="M" />
+                <generic:Value id="MEASURE" value="IR3TIB" />
+                <generic:Value id="UNIT_MEASURE" value="PA" />
+            </generic:SeriesKey>
+            <generic:Attributes>
+                <generic:Value id="UNIT_MULT" value="0" />
+                <generic:Value id="DECIMALS" value="2" />
+            </generic:Attributes>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-01" />
+                <generic:ObsValue value="6.45" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-02" />
+                <generic:ObsValue value="6.52" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-03" />
+                <generic:ObsValue value="6.58" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-04" />
+                <generic:ObsValue value="6.65" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-05" />
+                <generic:ObsValue value="6.72" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-06" />
+                <generic:ObsValue value="6.79" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-07" />
+                <generic:ObsValue value="6.86" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-08" />
+                <generic:ObsValue value="6.93" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-09" />
+                <generic:ObsValue value="7.00" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-10" />
+                <generic:ObsValue value="6.93" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-11" />
+                <generic:ObsValue value="6.77" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2018-12" />
+                <generic:ObsValue value="6.70" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-01" />
+                <generic:ObsValue value="6.63" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-02" />
+                <generic:ObsValue value="6.55" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-03" />
+                <generic:ObsValue value="6.48" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-04" />
+                <generic:ObsValue value="6.40" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-05" />
+                <generic:ObsValue value="6.33" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-06" />
+                <generic:ObsValue value="6.25" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-07" />
+                <generic:ObsValue value="6.18" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-08" />
+                <generic:ObsValue value="6.10" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-09" />
+                <generic:ObsValue value="6.03" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-10" />
+                <generic:ObsValue value="5.95" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-11" />
+                <generic:ObsValue value="5.88" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2019-12" />
+                <generic:ObsValue value="5.80" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-01" />
+                <generic:ObsValue value="5.73" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-02" />
+                <generic:ObsValue value="5.65" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-03" />
+                <generic:ObsValue value="5.20" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-04" />
+                <generic:ObsValue value="4.50" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-05" />
+                <generic:ObsValue value="3.90" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-06" />
+                <generic:ObsValue value="3.50" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-07" />
+                <generic:ObsValue value="3.20" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-08" />
+                <generic:ObsValue value="3.10" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-09" />
+                <generic:ObsValue value="3.05" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-10" />
+                <generic:ObsValue value="2.98" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-11" />
+                <generic:ObsValue value="2.93" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2020-12" />
+                <generic:ObsValue value="3.10" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-01" />
+                <generic:ObsValue value="3.25" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-02" />
+                <generic:ObsValue value="3.40" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-03" />
+                <generic:ObsValue value="3.55" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-04" />
+                <generic:ObsValue value="3.70" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-05" />
+                <generic:ObsValue value="3.85" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-06" />
+                <generic:ObsValue value="4.00" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-07" />
+                <generic:ObsValue value="4.15" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-08" />
+                <generic:ObsValue value="4.30" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-09" />
+                <generic:ObsValue value="4.45" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-10" />
+                <generic:ObsValue value="4.60" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-11" />
+                <generic:ObsValue value="4.75" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2021-12" />
+                <generic:ObsValue value="4.90" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-01" />
+                <generic:ObsValue value="5.05" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-02" />
+                <generic:ObsValue value="5.20" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-03" />
+                <generic:ObsValue value="5.40" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-04" />
+                <generic:ObsValue value="5.65" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-05" />
+                <generic:ObsValue value="5.90" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-06" />
+                <generic:ObsValue value="6.15" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-07" />
+                <generic:ObsValue value="6.40" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-08" />
+                <generic:ObsValue value="6.65" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-09" />
+                <generic:ObsValue value="6.85" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-10" />
+                <generic:ObsValue value="7.00" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-11" />
+                <generic:ObsValue value="7.10" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2022-12" />
+                <generic:ObsValue value="7.15" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-01" />
+                <generic:ObsValue value="7.10" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-02" />
+                <generic:ObsValue value="7.08" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-03" />
+                <generic:ObsValue value="7.06" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-04" />
+                <generic:ObsValue value="7.04" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-05" />
+                <generic:ObsValue value="7.02" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-06" />
+                <generic:ObsValue value="7.00" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-07" />
+                <generic:ObsValue value="6.98" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-08" />
+                <generic:ObsValue value="6.96" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-09" />
+                <generic:ObsValue value="6.94" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-10" />
+                <generic:ObsValue value="6.92" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-11" />
+                <generic:ObsValue value="6.90" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2023-12" />
+                <generic:ObsValue value="6.88" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-01" />
+                <generic:ObsValue value="6.91" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-02" />
+                <generic:ObsValue value="6.83" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-03" />
+                <generic:ObsValue value="6.75" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-04" />
+                <generic:ObsValue value="6.67" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-05" />
+                <generic:ObsValue value="6.57" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-06" />
+                <generic:ObsValue value="6.49" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-07" />
+                <generic:ObsValue value="6.39" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-08" />
+                <generic:ObsValue value="6.31" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-09" />
+                <generic:ObsValue value="6.23" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-10" />
+                <generic:ObsValue value="6.13" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-11" />
+                <generic:ObsValue value="6.05" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2024-12" />
+                <generic:ObsValue value="5.97" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-01" />
+                <generic:ObsValue value="5.87" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-02" />
+                <generic:ObsValue value="5.79" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-03" />
+                <generic:ObsValue value="5.71" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-04" />
+                <generic:ObsValue value="5.89" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-05" />
+                <generic:ObsValue value="5.80" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-06" />
+                <generic:ObsValue value="5.72" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-07" />
+                <generic:ObsValue value="5.45" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-08" />
+                <generic:ObsValue value="5.42" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-09" />
+                <generic:ObsValue value="5.49" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-10" />
+                <generic:ObsValue value="5.46" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-11" />
+                <generic:ObsValue value="5.45" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2025-12" />
+                <generic:ObsValue value="5.45" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2026-01" />
+                <generic:ObsValue value="5.49" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
+        </generic:Series>
+    </message:DataSet>
+</message:GenericData>
