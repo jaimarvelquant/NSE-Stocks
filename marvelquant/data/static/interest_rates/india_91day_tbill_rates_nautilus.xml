@@ -704,6 +704,13 @@
                     <generic:Value id="OBS_STATUS" value="A" />
                 </generic:Attributes>
             </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension id="TIME_PERIOD" value="2026-02" />
+                <generic:ObsValue value="5.25" />
+                <generic:Attributes>
+                    <generic:Value id="OBS_STATUS" value="A" />
+                </generic:Attributes>
+            </generic:Obs>
         </generic:Series>
     </message:DataSet>
 </message:GenericData>
